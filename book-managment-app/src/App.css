@@ -1,0 +1,17 @@
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #333;
+}
+
+.app-container {
+  min-height: 100vh;
+}

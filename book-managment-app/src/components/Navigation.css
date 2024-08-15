@@ -1,0 +1,23 @@
+.mode-toggle {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mode-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .mode-icon {
+    font-size: 1.5rem;
+    color: #ffd700;
+  }
+  
+  .navbar-light .mode-icon {
+    color: #1e90ff;
+  }
